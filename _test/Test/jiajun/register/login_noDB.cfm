@@ -1,5 +1,5 @@
                <cfif isDefined("FORM.submitted")>
-	<cfif FORM.email EQ "itsme@webucator.com" AND password EQ "password">
+	<cfif FORM.email EQ "jiajun.chou@104.com.tw" AND password EQ "password">
 		<cflocation url="index.cfm" addtoken="no">
 	</cfif>
 </cfif>
@@ -17,7 +17,7 @@
 	<tr>
 		<td>Email:</td>
 		<td><input type="text" name="email"
-				value="<cfoutput>#FORM.email#</cfoutput>" size="40"></td>
+				value="<cfoutput>#FORM.email#</cfoutput>" size="25"></td>
 	</tr>
 	<tr>
 		<td>Password:</td>
@@ -32,11 +32,18 @@
 	</tr>
 	<tr>
 		<td colspan="2">
-			<br><a href="Register.cfm">Register</a>
+			<br><a href="register.cfm">Register</a>
 		</td>
 	</tr>
 	</table>
 </form>
+
+<h2>Login example</h2>
+<ul>
+  <li>jiajun.chou@104.com.tw</li>
+  <li>password</li>
+</ul>
+
 
 </body>
 </html>
