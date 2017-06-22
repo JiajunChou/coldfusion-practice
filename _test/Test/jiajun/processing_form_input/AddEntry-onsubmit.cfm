@@ -3,7 +3,7 @@
   <title>Running Log</title>
 </head>
 <body>
-
+<cfabort>
 <cfform name="RunningForm" method="post" action="" format="html">
 <table>
 <tr>
